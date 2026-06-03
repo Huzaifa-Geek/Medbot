@@ -1,7 +1,7 @@
 # DIRECTORY
 
-mikdr -p src
-mikdr -p research
+mkdir -p src
+mkdir -p research
 
 # FILES
 
@@ -14,7 +14,7 @@ touch .env
 touch setup.py 
 touch main.py 
 
-touch research/trials.py
+touch research/trials.ipynb
 
 touch requirements.txt
 
